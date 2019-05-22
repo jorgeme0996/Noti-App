@@ -1,5 +1,7 @@
 {
   "name": "noti-app",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
