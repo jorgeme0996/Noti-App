@@ -18,8 +18,8 @@ export class Tab2Page  implements OnInit {
   constructor(private notiService: NoticiasService){}
   
   ngOnInit(){
-    this.segment.value = this.categorias[0];
-    this.cargarNoticias(this.categorias[0]);
+    // this.segment.value = this.categorias[0];
+    // this.cargarNoticias(this.categorias[0]);
   }
 
   cambioCategoria(event) {7
